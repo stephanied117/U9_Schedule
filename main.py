@@ -8,11 +8,18 @@ connection = mysql.connector.connect(user='kyley9',
 cursor = connection.cursor()
 query="CREATE TABLE"
 cursor.execute(query)
-print("Enter a student ID: ")
+status=input("Are you a teacher or a student?\n")
+query=""
+input("Enter a Teacher ID:\n")
+query=""
+input("Enter a Student ID:\n")
 query=""
 cursor.execute(query)
-print("Period: " )
-print("Course: " )
-print("Room: " )
-print("Teacher: " )
+print("SCHEDULE")
+schedule=""
+
+print("Period: ")
+print("Course: ")
+print("Room: ")
+print("Teacher: ")
 
